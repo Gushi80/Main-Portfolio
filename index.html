@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.3/font/bootstrap-icons.css"
+    />
+    <link rel="icon" type="image/png" href="img/techis-logo.png" />
+    <title>Portfolio</title>
+  </head>
+
+  <body>
+    <nav class="navbar navbar-expand-lg navbar-light shadow-sm">
+      <div class="container">
+        <a class="navbar-brand title-icon" href="#"
+          ><span class="font-primary">P</span>ortfolio</a
+        >
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarToggler"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarToggler">
+          <ul class="navbar-nav ms-auto mb-2">
+            <li class="nav -item">
+              <a class="nav-link font-black" href="#about">About</a>
+            </li>
+            <li class="nav -item">
+              <a class="nav-link font-black" href="#project">Projects</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <div id="about">
+      <h2><span class="font-primary">A</span>bout</h2>
+      <img src="./img/edit img.jpg" />
+      <div class="name">Fadila Alhassan</div>
+      <div class="vocation">Full Stack Developer</div>
+      <div class="skills">
+        Python / CSS / HTML / GITHUB / SQL / JavaScript / Django / Redux / React
+      </div>
+      <p>
+        As a Web Developer, I created Web designs and updated websites and
+        online applications using various programming languages and design
+        tools.
+      </p>
+      <div class="email">fadilaalhassan1998@gmail.com</div>
+      <div class="icons">
+        <a href="https://github.com/Gushi80" target="_blank"
+          ><i class="bi bi-github"></i
+        ></a>
+        <a href="http://www.linkedin.com/in/fadilakani" target="_blank"
+          ><i class="bi bi-linkedin ms-19"></i
+        ></a>
+      </div>
+    </div>
+
+    <div id="project">
+      <h2><span class="font-primary">P</span>roject</h2>
+      <div class="card mb-3">
+        <div class="row">
+          <div class="col-md-4">
+            <!-- <img src="img/project-netflix.png" alt="Netflix clone" /> -->
+            <video class="project-video" autoplay controls muted>
+              <source src="video/HiveTechwearvideo.mov" type="video/mp4" />
+              Your browser does not support the video tag.
+            </video>
+          </div>
+          <div class="col-md-8">
+            <div class="card-body">
+              <h5 class="card-title">Hive Tech Wear</h5>
+              <p class="card-text">
+                <strong>Project Description: </strong>
+                A convenient and fun way to browse featured clothing &
+                accessories from some of the best clothing brands online,
+                especially aimed at teenagers. With this web app, you can browse
+                products by any color you like or by trending colors, save
+                products into favorites, and share products with friends on
+                social media.<br /><br />
+                <strong>Skills Used: </strong> FrontEnd: React-Redux | Backend:
+                Django API.
+              </p>
+              <p class="card-text"></p>
+              <a href="https://newfrontendhive.johann98.repl.co/" target="_blank" class="btn btn-secondary">Website</a>
+              <a href="https://github.com/Gushi80/frontend_hive" target="_blank" class="btn btn-secondary">Github</a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="card mb-3">
+        <div class="row">
+          <div class="col-md-4">
+            <!-- <img src="img/project-twitter.png" alt="Twitter Project" /> -->
+            <video class="project-video" autoplay controls muted>
+              <source src="video/Cinema Paradiso.mp4" type="video/mp4" />
+              Your browser does not support the video tag.
+            </video>
+          </div>
+          <div class="col-md-8">
+            <div class="card-body">
+              <h5 class="card-title">Cinema Paradiso</h5>
+              <p class="card-text">
+                <strong>Project Description: </strong>Craving for movies ? This
+                virtual guide is extremely handy, you can view details of the
+                movies from various genre and find the exact movie you are
+                looking for. With this app, you can easily navigate to the
+                movie’s trailer , add the movie to the cart and save it for
+                later watch.<br /><br />
+                <strong>Skills Used:</strong> FrontEnd: React-Redux | Backend:
+                Django API.
+              </p>
+              <a
+                href="https://cinemafrontend.fakush8.repl.co/"
+                target="_blank"
+                class="btn btn-secondary"
+                >Website</a
+              >
+              <a
+                href="https://github.com/Gushi80/Cinema_Frontend"
+                target="_blank"
+                class="btn btn-secondary"
+                >Github</a
+              >
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="card mb-3">
+        <div class="row">
+          <div class="col-md-4">
+            <!-- <img src="img/project-twitter.png" alt="Twitter Project" /> -->
+            <video class="project-video" autoplay controls muted>
+              <source src="video/twitter.mov" type="video/mp4" />
+              Your browser does not support the video tag.
+            </video>
+          </div>
+          <div class="col-md-8">
+            <div class="card-body">
+              <h5 class="card-title">Twitter Clone</h5>
+              <p class="card-text">
+                <strong>Project Description: </strong>With this project, we
+                created a platform where you can express your thoughts
+                anonymously, showcase your pictures, and much more on a single
+                website. Post, edit, or delete posts at the convenience of just
+                a few touches. This project is based on Twitter and anonymity
+                adds to its special features. Without the necessity of an
+                account, you can share your thoughts and memories with the world
+                at any time. You can even learn CRUD(Create/Read/Update/Delete)
+                through this project. <br /><br />
+                <strong>Skills Used: </strong> Django | HTML | CSS | Bootstrap |
+                JavaScript | Cloudinary.
+              </p>
+              <!-- <p class="card-text">
+                <small class="text-muted">
+                  Test Login Details<br />
+                  Email : test@gmail.com <br />
+                  Password : 1234567890
+                </small>
+              </p> -->
+              <a
+                href="https://replit.com/@Fakush8/Twitterclone"
+                target="_blank"
+                class="btn btn-secondary"
+                >Website</a
+              >
+              <a
+                href="https://github.com/Gushi80/Twitter_clone"
+                target="_blank"
+                class="btn btn-secondary"
+                >Github</a
+              >
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-/bQdsTh/da6pkI1MST/rWKFNjaCP5gBSY4sEBT38Q/9RBh9AH40zEOg7Hlq2THRZ"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
